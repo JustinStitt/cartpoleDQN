@@ -86,7 +86,7 @@ t = 0 has an effect at t = 1500. Therefore, we need to discount our predicted fu
 
 **Bellman Equation**
 
-![](bellman_eq.png)
+![](visuals/bellman_eq.png)
 
 **Example of Why We Need Discounted Future Rewards**
 
