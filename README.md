@@ -88,7 +88,7 @@ t = 0 has an effect at t = 1500. Therefore, we need to discount our predicted fu
 
 ![](visuals/discounted_future_rewards_img.png)
 
---this feeds into the Bellman equation (below)
+--this reward value feeds into the Bellman equation (below)
 
 **Bellman Equation**
 
