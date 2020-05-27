@@ -7,11 +7,11 @@ see another [DQN I made](https://github.com/JustinStitt/lunarLanderDQN) with the
 
 **10 Epochs of training:**
 
-![](untrainedGIF.gif)
+![](visuals/untrainedGIF.gif)
 
 **1000 Epochs of training:**
 
-![](trainedGIF.gif)
+![](visuals/trainedGIF.gif)
 
 [Deep Q-Learning](https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning) is a branch of [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) where Q-Values are
 generated based on a discounted future reward given an action and an environment observation.
@@ -46,7 +46,7 @@ local minima. Moreover, if the learning rate is too high then we may entirely sk
 
 **Physical reconstruction I made to help myself visualize gradient descent**
 
-![](physical_model.jpg)
+![](visuals/physical_model.jpg)
 
 Consider a 3D cartesian environment. If our network is at some (x,y) we can then run our loss criterion on Q(x,y)
 which will yield some loss/cost value denoted 'z'. If you imagine dropping a ball (our network) randomly onto this physical reconstruction
