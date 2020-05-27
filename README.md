@@ -84,6 +84,12 @@ If our agent was in a constant state of exploration then we would never make act
 Rewards are given in terms of predicted future reward. However, we can't be sure or confident that an action taken at
 t = 0 has an effect at t = 1500. Therefore, we need to discount our predicted future rewards with some coefficient -- gamma --.
 
+**Compute a Reward for time step t: In Math Terms**
+
+![](visuals/discounted_future_rewards_img.png)
+
+--this feeds into the Bellman equation (below)
+
 **Bellman Equation**
 
 ![](visuals/bellman_eq.png)
@@ -95,9 +101,7 @@ this action with said reward. Now, say 3 months later your final grades are post
 Less so. Even broader, 4 years later you graduate. What weight do you give to the intial action of doing well on that **one** quiz? Nearly inconsequential...
 Goes to show why gamma is used in RL models to discount future rewards.
 
-**In Math Terms**
 
-![](visuals/discounted_future_rewards_img.png)
 
 # References
 
