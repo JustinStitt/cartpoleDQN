@@ -34,7 +34,7 @@ The network minimizes this loss by using an optimizer that adjusts the networks 
 A [gradient descent policy](http://www.scholarpedia.org/article/Policy_gradient_methods) is the most widely used algorithm by optimizers. 
 The optimizer's goal is to find the steepest descent at any given position. Doing this for N episodes with some learning rate, you will --over time-- find some local minima.
 
-**Local Minima and the Journey to Minmizing loss**
+**Local Minima and the Journey to Minimizing Loss**
 
 In the optimizer's journey to minimizing loss, it will encounter some local minima in which in may be happy to stay in. However, we usually don't want to settle with the first local minima we find as there is
 most definitely a better minima to strive towards. The best, of course, being the global minima which is the best possible position to be in as our loss is as minimal as it can possibly be.
